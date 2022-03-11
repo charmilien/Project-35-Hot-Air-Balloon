@@ -18,7 +18,7 @@ ball.scale=.5
  db=firebase.database();
  nodeloc=db.ref("ball/position").on("value",readPos) 
 
-
+console.log("fdsfdfd")
 }
  
 function draw() {
